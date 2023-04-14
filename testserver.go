@@ -237,7 +237,7 @@ func alterTrainParams() {
 	for {
 		select {
 		case <-time.After(1 * time.Minute):
-			n := rand.Intn(12)
+			n := rand.Intn(len(trainNumbers) - 1)
 			tn := trainNumbers[n]
 			train := schedules[tn]
 			train.DelayedBy = n
