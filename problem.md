@@ -55,7 +55,8 @@ Indian Railway has agreed to this business idea and given us 4 paid APIs (paid A
      "price": {
         "sleeper": 432,
         "AC": 1232
-     }
+     },
+     "delayedBy": "10"
    }
    ]
 ```
@@ -77,7 +78,8 @@ Indian Railway has agreed to this business idea and given us 4 paid APIs (paid A
      "price": {
         "sleeper": 432,
         "AC": 1232
-     }
+     },
+     "delayedBy": "10"
    }
 ```
 
