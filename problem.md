@@ -94,3 +94,8 @@ Indian Railway has agreed to this business idea and given us 4 paid APIs (paid A
 
     }
 ```
+
+> Acceptance Criteria:
+> - There should a REST interface developed for above requirements
+> - Opearting cost should be optimized that means we should be minimizing on the charges by Indian Railway on us
+> - Our server should give the best user experience
