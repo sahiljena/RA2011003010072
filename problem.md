@@ -85,8 +85,9 @@ Indian Railway has agreed to this business idea and given us 4 paid APIs (paid A
    4. POST: /auth
     Request Body:
       {
-        "ClientID": "UUID",
-        "ClientSecret": "tough password"
+      	"companyName": "Affordmed",
+	"clientID": "0fc91eb2-5008-4eb5-b312-ba6dc8f65e5b",
+	"clientSecret": "oJnNPGsiuzytMOJP"
       }
     
     Expected Response:
@@ -95,7 +96,7 @@ Indian Railway has agreed to this business idea and given us 4 paid APIs (paid A
 	    "token_type": "Bearer",
 	    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODE0NDk5MDksImNvbXBhbnlOYW1lIjoiQWZmb3JkbWVkIiwiY2xpZW50SUQiOiIwZmM5MWViMi01MDA4LTRlYjUtYjMxMi1iYTZkYzhmNjVlNWIifQ.5rrWy0NzpHhrOBzR1KHhAai0HxBOWe7gQ89IvIjoABA",
 	    "expires_in": 1681449909
-}
+    }
 ```
 
 > Acceptance Criteria:
