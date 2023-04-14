@@ -245,12 +245,20 @@ func alterTrainParams() {
 				train.Price.AC += 10
 				train.Price.Sleeper += 10
 			} else {
-				train.Price.AC += 15
-				train.Price.Sleeper += 15
+				if train.Price.AC-15 > 0 {
+					train.Price.AC -= 15
+				}
+				if train.Price.Sleeper-15 > 0 {
+					train.Price.Sleeper -= 15
+				}
 			}
 			if n%3 == 0 {
-				train.SeatsAvailable.AC -= 1
-				train.Price.Sleeper -= 2
+				if train.SeatsAvailable.AC-1 > 0 {
+					train.SeatsAvailable.AC -= 1
+				}
+				if train.Price.Sleeper-2 > 0 {
+					train.Price.Sleeper -= 2
+				}
 			}
 			schedules[tn] = train
 			fmt.Println("train params changed: ", schedules[tn])
