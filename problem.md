@@ -24,10 +24,11 @@ Indian Railway has agreed to this business idea and given us 4 paid APIs (paid A
    }
 
    Response Expected:
-   Status Code: 201
+   Status Code: 200
    {
-       "ClientID": "UUID",
-       "ClientSecret": "tough password"
+	    "companyName": "Affordmed",
+	    "clientID": "59e73b59-f659-4b08-892d-c96342bcf225",
+	    "clientSecret": "atwtPilfsfykSBGp"
    }
 
    This API is used to register a company who wish to use this paid service. Normally its a multi-steps process but 
@@ -89,10 +90,12 @@ Indian Railway has agreed to this business idea and given us 4 paid APIs (paid A
       }
     
     Expected Response:
-    Status Code: 201
+    Status Code: 200
     {
-
-    }
+	    "token_type": "Bearer",
+	    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODE0NDk5MDksImNvbXBhbnlOYW1lIjoiQWZmb3JkbWVkIiwiY2xpZW50SUQiOiIwZmM5MWViMi01MDA4LTRlYjUtYjMxMi1iYTZkYzhmNjVlNWIifQ.5rrWy0NzpHhrOBzR1KHhAai0HxBOWe7gQ89IvIjoABA",
+	    "expires_in": 1681449909
+}
 ```
 
 > Acceptance Criteria:
