@@ -14,6 +14,13 @@ var (
 		"2349",
 		"2249",
 		"2248",
+		"2247",
+		"2246",
+		"2245",
+		"2244",
+		"2243",
+		"2242",
+		"2241",
 	}
 	schedules = map[string]Train{
 		"2340": {
@@ -231,6 +238,132 @@ var (
 				AC:      1054,
 			},
 			DelayedBy: 0,
+		},
+		"2247": {
+			Name:   "Manoranjan Exp",
+			Number: "2347",
+			DepartureTime: CustomTime{
+				Hours:   17,
+				Minutes: 33,
+				Seconds: 0,
+			},
+			SeatsAvailable: Seat{
+				Sleeper: 5,
+				AC:      5,
+			},
+			Price: Price{
+				Sleeper: 222,
+				AC:      333,
+			},
+			DelayedBy: 0,
+		},
+		"2246": {
+			Name:   "Manu Exp",
+			Number: "2346",
+			DepartureTime: CustomTime{
+				Hours:   19,
+				Minutes: 0,
+				Seconds: 0,
+			},
+			SeatsAvailable: Seat{
+				Sleeper: 15,
+				AC:      10,
+			},
+			Price: Price{
+				Sleeper: 600,
+				AC:      800,
+			},
+			DelayedBy: 30,
+		},
+		"2245": {
+			Name:   "Kolkata Exp",
+			Number: "2345",
+			DepartureTime: CustomTime{
+				Hours:   20,
+				Minutes: 15,
+				Seconds: 0,
+			},
+			SeatsAvailable: Seat{
+				Sleeper: 16,
+				AC:      70,
+			},
+			Price: Price{
+				Sleeper: 500,
+				AC:      600,
+			},
+			DelayedBy: 0,
+		},
+		"2244": {
+			Name:   "Chennai Exp",
+			Number: "2344",
+			DepartureTime: CustomTime{
+				Hours:   21,
+				Minutes: 35,
+				Seconds: 0,
+			},
+			SeatsAvailable: Seat{
+				Sleeper: 3,
+				AC:      3,
+			},
+			Price: Price{
+				Sleeper: 550,
+				AC:      650,
+			},
+			DelayedBy: 0,
+		},
+		"2243": {
+			Name:   "Mumbai Exp",
+			Number: "2343",
+			DepartureTime: CustomTime{
+				Hours:   22,
+				Minutes: 37,
+				Seconds: 0,
+			},
+			SeatsAvailable: Seat{
+				Sleeper: 8,
+				AC:      15,
+			},
+			Price: Price{
+				Sleeper: 500,
+				AC:      600,
+			},
+			DelayedBy: 0,
+		},
+		"2242": {
+			Name:   "Pune Exp",
+			Number: "2342",
+			DepartureTime: CustomTime{
+				Hours:   23,
+				Minutes: 00,
+				Seconds: 0,
+			},
+			SeatsAvailable: Seat{
+				Sleeper: 6,
+				AC:      7,
+			},
+			Price: Price{
+				Sleeper: 854,
+				AC:      1854,
+			},
+			DelayedBy: 5,
+		},
+		"2241": {
+			Name:   "Hyderabad Exp",
+			Number: "2341",
+			DepartureTime: CustomTime{
+				Hours:   23,
+				Minutes: 55,
+				Seconds: 0,
+			},
+			SeatsAvailable: Seat{
+				Sleeper: 6,
+				AC:      7,
+			},
+			Price: Price{
+				Sleeper: 554,
+				AC:      1854,
+			},
+			DelayedBy: 5,
 		},
 	}
 )
